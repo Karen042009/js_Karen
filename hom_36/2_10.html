@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function add() {
+            let input = document.getElementById("input_li");
+            let list = document.getElementById("lst");
+            let li = document.createElement("li");
+            li.textContent = input.value;
+            list.appendChild(li);
+            input.value = "";
+        }
+    </script>
+</head>
+
+<body>
+    <form onsubmit="event.preventDefault(); add();">
+        <input type="text" id="input_li">
+        <input type="submit" value="Ավելացնել">
+    </form>
+    <ul id="lst">
+    </ul>
+</body>
+
+</html>
