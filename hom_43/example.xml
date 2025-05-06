@@ -1,0 +1,12 @@
+<school>
+  <student>
+    <name>Կարեն</name>
+    <age>16</age>
+    <grade>10</grade>
+  </student>
+  <student>
+    <name>Անի</name>
+    <age>12</age>
+    <grade>9</grade>
+  </student>
+</school>
